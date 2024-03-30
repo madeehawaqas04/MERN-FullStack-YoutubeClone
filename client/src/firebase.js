@@ -2,8 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  // apiKey: import.meta.env.VITE_API_FIREBASE_KEY,
-  apiKey: "AIzaSyDqusVfLslSNe-577wjm8rHSa93ObYlb8o",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "video-ef699.firebaseapp.com",
   projectId: "video-ef699",
   storageBucket: "video-ef699.appspot.com",
